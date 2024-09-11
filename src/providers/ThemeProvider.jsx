@@ -13,6 +13,7 @@ const ThemeProvider = ({ children }) => {
     setMounted(true);
   }, []);
 
+  // 改变 className
   if (mounted) {
     return <div className={theme}>{children}</div>;
   }

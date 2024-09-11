@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={inter.className}>
+        {/* // ThemeContextProvider 组件用来包裹需要访问这个上下文的子组件 */}
         <ThemeContextProvider>
           <ThemeProvider>
             <div className='container'>

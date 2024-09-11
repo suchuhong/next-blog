@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useState, useEffect } from 'react';
-
+// 创建一个新的上下文对象 ThemeContext
 export const ThemeContext = createContext();
 
 const getFromLocalStorage = () => {
