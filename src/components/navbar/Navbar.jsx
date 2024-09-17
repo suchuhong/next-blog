@@ -14,11 +14,17 @@ const Navbar = () => {
         <Image src='/youtube.png' alt='youtube' width={24} height={24} />
       </div>
       <div className={styles.logo}>suchuh</div>
-      <div className={styles.link}>
+      <div className={styles.links}>
         <ThemeToggle />
-        <Link href='/'>Homepage</Link>
-        <Link href='/'>Contact</Link>
-        <Link href='/'>About</Link>
+        <Link href='/' className={styles.link}>
+          Homepage
+        </Link>
+        <Link href='/' className={styles.link}>
+          Contact
+        </Link>
+        <Link href='/' className={styles.link}>
+          About
+        </Link>
         <AuthLinks />
       </div>
     </div>
